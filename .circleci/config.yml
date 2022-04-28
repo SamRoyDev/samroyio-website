@@ -30,7 +30,7 @@ jobs:
   deploy:
     working_directory: ~/repo
     docker:
-      - image: innovatorjapan/awscli:latest
+      - image: amazon/aws-cli:latest
     steps:
       - attach_workspace:
           at: .
