@@ -20,6 +20,9 @@ function App() {
       <div className="App-body">
         <p>
           Test body text
+          <li>This</li>
+          <li>Is</li>
+          <li>samroy.io</li>
         </p>
       </div>
     </div>
