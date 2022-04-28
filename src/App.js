@@ -1,20 +1,19 @@
 import './App.css';
-/*import logo from './logo.svg';*/
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Coming Soon.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/samroy92"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
         </a>
       </header>
     </div>
