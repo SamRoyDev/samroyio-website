@@ -16,6 +16,12 @@ function App() {
           Github
         </a>
       </header>
+
+      <div className="App-body">
+        <p>
+          Test body text
+        </p>
+      </div>
     </div>
   );
 }
