@@ -5,25 +5,35 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Coming Soon.
+          Sam Roy
         </p>
-        <a
+        <br>Head of IT Operations</br>
+        <hr />
+      </header>
+
+      <div className="App-body">
+        <p>
+          Welcome to <code>samroy.io</code>
+        </p>
+        <h2>Projects</h2>
+        <hr />
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        .
+        <hr />
+        <h3><a
           className="App-link"
           href="https://github.com/samroy92"
           target="_blank"
           rel="noopener noreferrer"
         >
           Github
-        </a>
-      </header>
-
-      <div className="App-body">
-        <p>
-          Test body text
-          <li>This</li>
-          <li>Is</li>
-          <li>samroy.io</li>
-        </p>
+        </a></h3>
       </div>
     </div>
   );
