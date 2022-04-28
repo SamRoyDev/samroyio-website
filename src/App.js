@@ -7,22 +7,20 @@ function App() {
         <p>
           <h1>Sam Roy</h1>
         </p>
-        <a
-          className="App-link"
-          href="https://github.com/samroy92"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a>
       </header>
 
       <div className="App-body">
         <p>
-          Test body text
-          <li>This</li>
-          <li>Is</li>
-          <li>samroy.io</li>
+          <h2>Projects</h2>
+          <hr />
+          <a
+            className="App-link"
+            href="https://github.com/samroy92"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
         </p>
       </div>
     </div>
