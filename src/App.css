@@ -30,7 +30,7 @@
 .App-body {
   background-color: #1f2228;
   min-height: 50vh;
-  max-height: 100vh;
+  height: 100vh;
   min-width: 20vw;
   max-width: 80vw;
   margin-left: 15%;
@@ -43,7 +43,7 @@
   font-size: calc(8px + 2vmin);
   color: white;
   font-family: 'IBMPlexSans-Regular';
-  border-radius: 25px;
+  border-radius: 50px;
 }
 
 .App-footer {
