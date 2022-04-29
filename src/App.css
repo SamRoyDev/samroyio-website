@@ -29,7 +29,6 @@
 
 .App-body {
   background-color: #1f2228;
-  min-height: 50vh;
   min-width: 20vw;
   max-width: 80vw;
   margin-left: 15%;
@@ -43,7 +42,6 @@
   color: white;
   font-family: 'IBMPlexSans-Regular';
   border-radius: 50px;
-  flex-grow: 1;
 }
 
 .App-footer {
