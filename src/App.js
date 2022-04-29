@@ -8,15 +8,15 @@ function App() {
       </header>
 
       <div className="App-body">
-          <h2>Projects</h2>
-          <h4><a
+          <h3>Projects</h3>
+          <a
             className="App-link"
             href="https://github.com/samroy92"
             target="_blank"
             rel="noopener noreferrer"
           >
             Github
-          </a></h4>
+          </a>
       </div>
 
       <footer className="App-footer">
