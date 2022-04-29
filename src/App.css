@@ -27,7 +27,6 @@
   font-size: calc(15px + 6vmin);
   color: white;
   font-family: 'IBMPlexSans-Regular';
-  line-height: 100%;
 }
 
 .App-body {
@@ -60,8 +59,6 @@
   font-size: calc(3px + 2vmin);
   color: white;
   font-family: 'IBMPlexSans-Regular';
-  line-height: 100%;
-
 }
 
 .App-link {
