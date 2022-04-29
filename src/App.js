@@ -8,7 +8,6 @@ function App() {
       </header>
 
       <div className="App-body">
-        <p>
           <h2>Projects</h2>
           <h4><a
             className="App-link"
@@ -18,7 +17,6 @@ function App() {
           >
             Github
           </a></h4>
-        </p>
       </div>
 
       <footer className="App-footer">
