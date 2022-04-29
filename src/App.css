@@ -34,7 +34,7 @@
   max-width: 80vw;
   margin-left: 15%;
   margin-right: 15%;
-  padding: 2px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -42,6 +42,7 @@
   font-size: calc(8px + 2vmin);
   color: white;
   font-family: 'IBMPlexSans-Regular';
+  border-radius: 25px;
 }
 
 .App-footer {
