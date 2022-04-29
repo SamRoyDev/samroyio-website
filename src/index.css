@@ -3,6 +3,11 @@
   src: local('IBMPlexSans-Regular'), url(./fonts/IBMPlexSans-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'IBMPlexSans-Bold';
+  src: local('IBMPlexSans-Bold'), url(./fonts/IBMPlexSans-Bold.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
