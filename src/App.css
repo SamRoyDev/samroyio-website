@@ -27,7 +27,7 @@
   font-size: calc(15px + 2vmin);
   color: white;
   font-family: 'IBMPlexSans-Regular';
-  line-height: 80%;
+  line-height: 100%;
 }
 
 .App-body {
@@ -49,15 +49,6 @@
 
 .App-link {
   color: #61dafb;
-}
-
-.h2 {
-  margin: 1%;
-  padding: 1%;
-}
-
-.h1 {
-  padding: 1%;
 }
 
 @keyframes App-logo-spin {
