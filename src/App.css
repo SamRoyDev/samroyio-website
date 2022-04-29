@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  height: 100%;
 }
 
 .App-logo {
@@ -31,7 +32,6 @@
   background-color: #1f2228;
   min-width: 20vw;
   max-width: 80vw;
-  min-height: 73vh;
   margin-left: 15%;
   margin-right: 15%;
   padding: 5vh;
@@ -43,6 +43,7 @@
   color: white;
   font-family: 'IBMPlexSans-Regular';
   border-radius: 50px;
+  flex-grow: 1;
 }
 
 .App-footer {
