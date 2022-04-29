@@ -20,6 +20,10 @@ function App() {
           </a></h4>
         </p>
       </div>
+
+      <footer className="App-footer">
+        Github * LinkedIn * Twitter
+      </footer>
     </div>
   );
 }
