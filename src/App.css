@@ -27,6 +27,7 @@
   font-size: calc(15px + 2vmin);
   color: white;
   font-family: 'IBMPlexSans-Regular';
+  line-height: 80%;
 }
 
 .App-body {
