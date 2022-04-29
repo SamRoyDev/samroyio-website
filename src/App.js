@@ -8,7 +8,7 @@ function App() {
       </header>
 
       <div className="App-body">
-          <h4>Projects</h4>
+          Projects
           <a
             className="App-link"
             href="https://github.com/samroy92"
