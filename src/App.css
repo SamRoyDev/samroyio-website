@@ -43,7 +43,7 @@
   color: white;
   font-family: 'IBMPlexSans-Regular';
   border-radius: 50px;
-  flex-grow: 1;
+  flex-grow: 4;
 }
 
 .App-footer {
