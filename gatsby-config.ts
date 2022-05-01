@@ -11,8 +11,8 @@ const config: GatsbyConfig = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": process.env.CONTENTFUL_DELIVERY_TOKEN,
-      "spaceId": process.env.CONTENTFUL_SPACE_ID
+      accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
+      spaceId: process.env.CONTENTFUL_SPACE_ID
     }
   }, "gatsby-plugin-emotion", "gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
