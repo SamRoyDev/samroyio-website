@@ -1,3 +1,4 @@
+import { link } from "fs"
 import * as React from "react"
 
 // styles
@@ -100,6 +101,15 @@ const IndexPage = () => {
             href={`${docLink.url}`}
           >
             {docLink.text}
+          </a>
+      </p>
+      <p>
+        Test page using contentful:&nbsp;
+        <a
+          style={linkStyle}
+          href={'blog/'}
+          >
+            blog
           </a>
       </p>
       <img
