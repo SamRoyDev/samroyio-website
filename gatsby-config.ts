@@ -9,7 +9,7 @@ const config: GatsbyConfig = {
     resolve: 'gatsby-source-contentful',
     options: {
       "accessToken": `.env.${process.env.CONTENTFUL_DELIVERY_TOKEN}`,
-      "spaceId": `.env.${process.env.TZCONTENTFUL_SPACE_ID}`
+      "spaceId": `.env.${process.env.CONTENTFUL_SPACE_ID}`
     }
   }, "gatsby-plugin-emotion", "gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
