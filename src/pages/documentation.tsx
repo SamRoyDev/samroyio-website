@@ -58,7 +58,7 @@ const descriptionStyle = {
 
 const docLink = {
   text: "TypeScript Documentation",
-  url: "/documentation/",
+  url: "https://www.gatsbyjs.com/docs/how-to/custom-configuration/typescript/",
   color: "#8954A8",
 }
 
@@ -131,7 +131,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Welcome to samroy.io
+        DOCUMENTATION for samroy.io
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         🎉🎉🎉

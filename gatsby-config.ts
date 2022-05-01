@@ -1,4 +1,5 @@
 import type { GatsbyConfig } from "gatsby";
+
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
@@ -12,9 +13,9 @@ const config: GatsbyConfig = {
     resolve: 'gatsby-source-contentful',
     options: {
       accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
-      spaceId: process.env.CONTENTFUL_SPACE_ID
+      spaceId: process.env.CONTENTFUL_SPACE_ID,
     }
-  }, "gatsby-plugin-emotion", "gatsby-plugin-mdx", {
+  }, "gatsby-plugin-emotion", "gatsby-plugin-mdx", "gatsby-plugin-image", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
