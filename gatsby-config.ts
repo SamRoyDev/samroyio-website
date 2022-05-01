@@ -1,4 +1,7 @@
 import type { GatsbyConfig } from "gatsby";
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -8,8 +11,8 @@ const config: GatsbyConfig = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": `.env.${process.env.CONTENTFUL_DELIVERY_TOKEN}`,
-      "spaceId": `.env.${process.env.CONTENTFUL_SPACE_ID}`
+      "accessToken": process.env.CONTENTFUL_DELIVERY_TOKEN,
+      "spaceId": process.env.CONTENTFUL_SPACE_ID
     }
   }, "gatsby-plugin-emotion", "gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
