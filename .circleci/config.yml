@@ -27,6 +27,9 @@ jobs:
           root: .
           paths:
             - .
+      - artifacts:
+          paths:
+            - build
   deploy:
     working_directory: ~/repo
     docker:
