@@ -15,7 +15,12 @@ const config: GatsbyConfig = {
       accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
       spaceId: process.env.CONTENTFUL_SPACE_ID,
     }
-  }, "gatsby-plugin-emotion", "gatsby-plugin-mdx", "gatsby-plugin-image", {
+  },{
+    resolve: 'gatsby-plugin-zopfli',
+    options: {
+      extensions: ['css','html','js','svg','png','mdx','md']
+    }
+  },"gatsby-plugin-emotion", "gatsby-plugin-mdx", "gatsby-plugin-image", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
