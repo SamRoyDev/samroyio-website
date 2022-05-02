@@ -1,9 +1,10 @@
 import { link } from "fs"
+import { ClientRequest } from "http"
 import * as React from "react"
 
 // styles
 const pageStyles = {
-  color: "#232129",
+  color: "#05386B",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -17,6 +18,7 @@ const headingAccentStyles = {
 }
 const paragraphStyles = {
   marginBottom: 48,
+  color: "#000000"
 }
 const codeStyles = {
   color: "#8A6534",
@@ -85,31 +87,28 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Welcome to samroy.io
+        samroy.io
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        🎉🎉🎉
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
-        update in real-time. 😎
+        <code style={codeStyles}>Coming soon.</code>
       </p>
-      <p>
-        To go back to Gatsby Index click&nbsp;
-        <a
-            style={linkStyle}
-            href={`${docLink.url}`}
-          >
-            {docLink.text}
-          </a>
-      </p>
-      <p>
-        Test page using contentful:&nbsp;
+      <p style={paragraphStyles}>
+        Test page using&nbsp;
         <a
           style={linkStyle}
           href={'blog/'}
           >
-            blog
+            contentful
+          </a>
+      </p>
+      <p style={paragraphStyles}>
+        Test page using&nbsp;
+        <a
+          style={linkStyle}
+          href={'test/'}
+          >
+            markdown
           </a>
       </p>
       <img

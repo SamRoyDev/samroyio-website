@@ -20,14 +20,14 @@ html {
     -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   }
-  
+
   article,
   aside,
   details,
   figcaption,
   figure,
-  footer,
   header,
+  footer,
   main,
   menu,
   nav,
