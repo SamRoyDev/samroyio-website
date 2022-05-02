@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+/*import React, { Fragment } from 'react';
 import { Link } from 'gatsby';
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
