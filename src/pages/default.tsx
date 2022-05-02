@@ -37,7 +37,6 @@ query MyQuery2($slug: String) {
     }
   }
 `
-/* 
 const BlogTemplate = (contentfulPage) => {
   const allBlogPosts = query;
   return (
