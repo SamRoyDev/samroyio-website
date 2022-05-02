@@ -18,7 +18,10 @@ const config: GatsbyConfig = {
   },{
     resolve: 'gatsby-plugin-zopfli',
     options: {
-      extensions: ['css','html','js','svg','png','mdx','md']
+      extensions: ['css','html','js','svg','png','mdx','md'],
+      compression: {
+        numiterations: 25
+      }
     }
   },"gatsby-plugin-emotion", "gatsby-plugin-mdx", "gatsby-plugin-image", {
     resolve: 'gatsby-source-filesystem',
