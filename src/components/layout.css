@@ -4,6 +4,7 @@ html {
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
     overflow-y: scroll;
+    font-size: max(1em, min(1.75em, calc(100vw * 4 / 75)));
   }
   
   body {
@@ -20,7 +21,6 @@ html {
     -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     font-feature-settings: 'kern', 'liga', 'clig', 'calt';
-    font-size: 1.25em;
   }
 
   div {
@@ -29,6 +29,7 @@ html {
   }
 
   main {
+    font-size: max(0.75em, min(1.25em, calc(100vw * 4 / 75)));
   }
 
   article,
@@ -95,16 +96,12 @@ html {
   }
   
   h1 {
-    font-size: 3em;
-    margin: 0.67em 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    font-size: max(2em, min(4em, calc(100vw * 4 / 75)));
+    line-height: 2rem;
+    margin-top: calc((1.5rem - 2rem) + 1.5rem);
+    margin-bottom: 1.5rem;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    padding-bottom: 2rem;
     color: inherit;
     font-family:
       -apple-system,
@@ -120,7 +117,6 @@ html {
       sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    line-height: 1.1;
   }
   
   mark {
