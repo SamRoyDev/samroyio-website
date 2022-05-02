@@ -5,7 +5,6 @@ import * as React from "react"
 // styles
 const pageStyles = {
   color: "#fdf6e3",
-  padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -88,28 +87,26 @@ const bodyStyle = {
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main>
       <title>Home Page</title>
-      <h1 style={headingStyles}>
+      <h1>
         samroy.io
         <br />
       </h1>
-      <p style={paragraphStyles}>
+      <p>
         <code style={codeStyles}>Coming soon.</code>
       </p>
-      <p style={paragraphStyles}>
+      <p>
         Test page using&nbsp;
         <a
-          style={linkStyle}
           href={'blog/'}
           >
             contentful
           </a>
       </p>
-      <p style={paragraphStyles}>
+      <p>
         Test page using&nbsp;
         <a
-          style={linkStyle}
           href={'test/'}
           >
             markdown

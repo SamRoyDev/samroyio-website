@@ -10,8 +10,8 @@ html {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #caf4ff;
-    background-color: #002b36;
+    color: #fffcf3;
+    background-color: #004556;
     font-family: georgia, serif;
     font-weight: normal;
     word-wrap: break-word;
@@ -20,6 +20,15 @@ html {
     -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
     font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+    font-size: 1.25em;
+  }
+
+  div {
+    padding: 96;
+    margin: 10%;
+  }
+
+  main {
   }
 
   article,
@@ -29,7 +38,6 @@ html {
   figure,
   header,
   footer,
-  main,
   menu,
   nav,
   section,
@@ -60,7 +68,9 @@ html {
   
   a {
     background-color: transparent;
+    font-weight: bold;
     -webkit-text-decoration-skip: objects;
+    color: #88cdff;
   }
   
   a:active,
@@ -85,7 +95,7 @@ html {
   }
   
   h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0.67em 0;
     margin-left: 0;
     margin-right: 0;
@@ -514,6 +524,8 @@ html {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
+    font-size: 1em;
+    color: #fffcf3;
   }
   
   pre {
