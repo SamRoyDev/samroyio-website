@@ -28,7 +28,7 @@ const config: GatsbyConfig = {
     options: {
       icon: 'src/images/icon.png',
     },
-  },"gatsby-plugin-sharp","gatsby-plugin-emotion", "gatsby-plugin-mdx", "gatsby-plugin-image", {
+  },{
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
