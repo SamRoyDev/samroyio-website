@@ -18,7 +18,7 @@ const config: GatsbyConfig = {
   },{
     resolve: 'gatsby-plugin-zopfli',
     options: {
-      extensions: ['css','html','js','svg','png','mdx','md'],
+      extensions: ['css','html','js','svg','png','mdx','md', 'tsx','ts','json'],
       compression: {
         numiterations: 25
       }
