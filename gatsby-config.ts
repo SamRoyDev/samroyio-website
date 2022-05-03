@@ -28,14 +28,14 @@ const config: GatsbyConfig = {
     options: {
       icon: 'src/images/icon.png',
     },
-  },{
+  },"gatsby-plugin-image", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
       "path": "./src/pages/"
     },
     __key: "pages"
-  },"gatsby-plugin-image"]
+  }]
 };
 
 export default config;
