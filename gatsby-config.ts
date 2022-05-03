@@ -23,7 +23,12 @@ const config: GatsbyConfig = {
         numiterations: 25
       }
     }
-  },"gatsby-plugin-emotion", "gatsby-plugin-mdx", "gatsby-plugin-image", {
+  },{
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      icon: 'src/images/icon.png',
+    },
+  },"gatsby-plugin-sharp","gatsby-plugin-emotion", "gatsby-plugin-mdx", "gatsby-plugin-image", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
