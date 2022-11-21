@@ -67,5 +67,9 @@ class MDXPage extends Component<Props, {}> {
         )
     }
 }
-export default MDXPage
 */
+const MDXPage = () => {
+  return (null)
+}
+
+export default MDXPage
