@@ -2,12 +2,75 @@
 ---
 # projects
 
-_Experienced technology leader with more than 10 years of industry experience in high growth environments. I pride myself in
-consistently exceeding outcomes on strategic goals and initiatives. I believe interpersonal trust is critical in building strong teams._
+_Compilation of a mixture of professional and recreational projects in the space of IT, Software Development, DevOps, and Infosec_
 
 ### List
 
 - [samroyio-website](https://github.com/samroy92/samroyio-website)
 - [samroyio-infrastructure](https://github.com/samroy92/samroyio-infrastructure)
 
-### [Back Home](/)
+### DevOps
+
+``` terraform
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "4.11.0"
+    }
+    cloudflare = {
+        source = "cloudflare/cloudflare"
+        version = "~> 3.0"
+    }
+  }
+
+  backend "s3" {
+      bucket = "samroyio-website-backend"
+      region = "us-east-1"
+      key = "terraform.tfstate"
+  }
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+```
+
+### IT Automation
+```
+//TODO
+```
+
+### Software Development
+```
+const Layout = ({ children }: Props) => (
+  <StaticQuery
+    query={graphql`
+      query SiteTitleQuery {
+        site {
+          siteMetadata {
+            title
+          }
+        }
+      }
+    `}
+    render={(data) => (
+      <>
+        <Helmet
+          title={data.site.siteMetadata.title}
+          meta={[
+            { name: 'description', content: 'Sample' },
+            { name: 'keywords', content: 'sample, something' },
+          ]}
+        >
+          <html lang="en" />
+        </Helmet>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <Container style={{}}>{children}</Container>
+      </>
+    )}
+  />
+)
+```
+
+### [Back to Home](/) / [Top of Page](#) 
