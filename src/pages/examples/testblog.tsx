@@ -38,7 +38,7 @@ query MyQuery($slug: String) {
     }
   }
 `
-/*
+
 const Page = ({data}) => {
     return (
       <div>
