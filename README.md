@@ -19,6 +19,10 @@ Prod [![CircleCI](https://circleci.com/gh/samroy92/samroyio-website/tree/master.
 
 ## 🚀 Quick start
 
+**Install Node for Windows**
+  - https://nodejs.org/en/download/
+  - run `npm i`
+
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
