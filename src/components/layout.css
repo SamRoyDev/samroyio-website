@@ -24,12 +24,19 @@ th {
   padding: 5px 10px;
 }
 a {
-  color: #59acf3;
-}
-a:hover {
-  color: #a7d8ff;
+  color: hsl(207, 100%, 83%);
   text-decoration: none;
 }
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(207, 91%, 96%);
+  text-decoration: solid;
+}
+
 a img {
   border: none;
 }

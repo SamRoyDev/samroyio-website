@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
@@ -48,7 +48,7 @@ const Page = ({data}) => {
       </div>
     )
   }
-*/
+
 class MDXPage extends Component<Props, {}> {
     render() {
         const headerText = this.props.data.allContentfulMdxPage.nodes.title
@@ -68,3 +68,4 @@ class MDXPage extends Component<Props, {}> {
     }
 }
 export default MDXPage
+*/
