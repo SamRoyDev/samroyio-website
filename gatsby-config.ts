@@ -10,12 +10,6 @@ const config: GatsbyConfig = {
     siteUrl: `https://www.samroy.io`
   },
   plugins: [{
-    resolve: 'gatsby-source-contentful',
-    options: {
-      accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
-      spaceId: process.env.CONTENTFUL_SPACE_ID,
-    }
-  },{
     resolve: 'gatsby-plugin-zopfli',
     options: {
       extensions: ['css','html','js','svg','png','mdx','md', 'tsx','ts','json'],

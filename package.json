@@ -31,7 +31,6 @@
     "gatsby-plugin-netlify-headers": "^1.0.1",
     "gatsby-plugin-sharp": "^4.13.0",
     "gatsby-plugin-zopfli": "^2.0.0",
-    "gatsby-source-contentful": "^7.11.0",
     "gatsby-source-filesystem": "^4.13.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
