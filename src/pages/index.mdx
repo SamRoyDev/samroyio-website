@@ -18,28 +18,33 @@ samroyio-infrastructure|master|[![CircleCI](https://circleci.com/gh/samroy92/sam
 
 ```
 samroyio-website
-├─ .circleci
-│  └─ config.yml
-├─ .gitignore
-├─ README.md
-├─ gatsby-browser.ts
-├─ gatsby-config.ts
-├─ package-lock.json
-├─ package.json
-├─ src
-│  ├─ components
-│  │  ├─ header.tsx
-│  │  ├─ layout.css
-│  │  └─ layout.tsx
-│  ├─ images
-│  │  └─ icon.png
-│  └─ pages
-│     ├─ 404.tsx
-│     ├─ index.tsx
-│     ├─ pagetest.tsx
-│     ├─ test.mdx
-│     └─ testblog.tsx
-└─ tsconfig.json
+│   .gitignore
+│   gatsby-browser.ts
+│   gatsby-config.ts
+│   package-lock.json
+│   package.json
+│   README.md
+│   tsconfig.json
+├───.circleci
+│       config.yml
+└───src
+    ├───components
+    │       header.tsx
+    │       layout.css
+    │       layout.tsx
+    ├───images
+    │       icon.png
+    └───pages
+        │   404.mdx
+        │   index.mdx
+        │   projects.mdx
+        │   resume.mdx
+        │   test.mdx
+        └───examples
+                gatsby-404.tsx
+                index-old.tsx
+                pagetest.tsx
+                testblog.tsx
 ```
 
 ### Build
