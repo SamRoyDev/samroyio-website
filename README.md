@@ -19,8 +19,9 @@ Prod [![CircleCI](https://circleci.com/gh/samroy92/samroyio-website/tree/master.
 
 ## 🚀 Quick start
 
-**Install Node for Windows**
-  - https://nodejs.org/en/download/
+**Pre-requisites**
+  - Install Node: https://nodejs.org/en/download/
+  - Install Python: https://www.python.org/downloads/
   - run `npm i`
 
 1.  **Create a Gatsby site.**

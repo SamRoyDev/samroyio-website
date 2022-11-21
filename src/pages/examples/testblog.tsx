@@ -50,7 +50,7 @@ const Page = ({data}) => {
   }
 */
 class MDXPage extends Component<Props, {}> {
-    props: any
+    declare props: any
     render() {
         const headerText = this.props.data.allContentfulMdxPage.nodes.title
         const mdxBody = this.props.data.allContentfulMdxPage.nodes.body
