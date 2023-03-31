@@ -6,8 +6,6 @@ Prod [![CircleCI](https://circleci.com/gh/samroy92/samroyio-website/tree/master.
 ## Simple React App hosted on S3
   - Github -> CircleCI -> S3 -> The World
 
-
-
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
